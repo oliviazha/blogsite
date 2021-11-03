@@ -1,0 +1,52 @@
+body, button, input, textarea {
+    font-family: 'Avenir';
+  }
+
+
+#header {
+  background-color: rgb(207, 223, 238)
+}
+
+#intro-form, #title, #blog-title {
+  padding: 1% 5% ;
+}
+
+#intro {
+  text-align: center
+}
+
+#edit-intro, #blog-list {
+  margin: 1% 5% 
+}
+
+textarea, button, input {
+  margin: .2% 0%;
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+textarea, input {
+  width: 100%;
+}
+
+.post, .post-form {
+  padding: 1%;
+  border-style: solid;
+  border-color: #dcd8f0;
+  border-width: 5px;
+  border-radius: 10px;
+  width:30%;
+}
+
+.post, .post-form {
+  text-align: center;
+  display: inline-block
+}
+
+#blog-list {
+  margin: 1% 5% 
+}
+
+
